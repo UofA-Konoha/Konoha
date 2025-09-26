@@ -1,12 +1,16 @@
 package com.example.konoha;
 
-import java.awt.Shape;
-
 public class Circle extends Shape {
-    private int radius;
-
-    public Rectangle(int x, int y, int radius){
+    int radius;
+    public Circle(int x, int y) {
         super(x, y);
+    }
+
+    public int getRadius() {
+        return radius;
+    }
+
+    public void setRadius(int radius) {
         this.radius = radius;
     }
 }
